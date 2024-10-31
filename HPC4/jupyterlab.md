@@ -26,7 +26,7 @@ Note: Save the token or URL displayed with 127.0.0.0 in the output.
 ### 3. Create Local Tunnel
 On your local machine, create a ssh tunnel to the login node:
 ```bash
-ssh -N -L 8888:<allocated node name>:18888 username@hpc4.ust.hk
+ssh -N -L 8888:<allocated node name>:8888 username@hpc4.ust.hk
 ```
 
 ### 4. Access JupyterLab
